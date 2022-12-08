@@ -1,0 +1,14 @@
+@charset;
+
+body{
+    background-color: rgb(32, 223, 223);
+}
+
+h1{
+    color: rgb(4, 68, 47);
+}
+
+p{
+    color: rgb(187, 143, 143);
+    text-decoration-line: underline;
+}
