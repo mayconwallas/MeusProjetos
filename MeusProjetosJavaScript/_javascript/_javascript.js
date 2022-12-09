@@ -12,5 +12,7 @@
  
 // window.confirm("Está gostando de javascript??")       
 
- var nome = window.prompt("Fale alguma coisa.")
- window.alert("é muito bom conhecer vc " + nome)
+ var numero1 = Number( window.prompt("Digite um numero."))
+ var nuemro2 = Number(window.prompt("Digite outro numero."))
+ var resultato1 = numero1 + nuemro2
+ window.alert("A soma dos seus numero é: " + String(resultato1)) // o String esta apensas
