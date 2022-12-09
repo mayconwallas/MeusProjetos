@@ -12,4 +12,5 @@
  
 // window.confirm("Está gostando de javascript??")       
 
- window.prompt("Testando prompt.")
+ var nome = window.prompt("Fale alguma coisa.")
+ window.alert("é muito bom conhecer vc " + nome)
