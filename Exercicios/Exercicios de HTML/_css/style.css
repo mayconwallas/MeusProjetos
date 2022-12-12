@@ -1,5 +1,9 @@
 body {
-    background: url('../_imagens/90ef15a6dcb970fc6f58d6ef0cdbcaf2.png');
+    background: url('../_imagens/90ef15a6dcb970fc6f58d6ef0cdbcaf2.png') center center no-repeat fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     
 }
 
