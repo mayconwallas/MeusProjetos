@@ -1,10 +1,12 @@
 body {
-    background: url('../_imagens/90ef15a6dcb970fc6f58d6ef0cdbcaf2.png') center center no-repeat fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
+    background: url('../_imagens/90ef15a6dcb970fc6f58d6ef0cdbcaf2.png') center center no-repeat fixed;  
+}
+
+div#interface {
+    background: rgba(0, 0, 0, .6);
+    margin: auto;
+    width: 1500px;
+    margin-top: -25px;
 }
 
 h1{
@@ -15,13 +17,13 @@ p{
     color: #ffffff;
 }
 
-section {
+/*section {
     background: rgba(0, 0, 0, .6);
     margin: auto;
-    width: 1000px;
+    width: 1500px;
     
     
-}
+}*/
 
 
 div {
