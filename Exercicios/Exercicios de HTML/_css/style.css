@@ -1,12 +1,53 @@
 body {
-    background: url('../_imagens/90ef15a6dcb970fc6f58d6ef0cdbcaf2.png') center center no-repeat fixed;  
+    background: url('../_imagens/wallpapers-de-one-piece-para-pc-e-celular-30.jpg') center center no-repeat fixed;  
+}
+
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+a{
+    color: #606060;
+    text-decoration:none;				
+}
+
+a:hover{
+    text-decoration: underline;
+    
 }
 
 div#interface {
-    background: rgba(0, 0, 0, .6);
-    margin: auto;
-    width: 1500px;
-    margin-top: -25px;
+margin: -20px auto 0px auto;
+box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+padding: 10px;
+background: rgba(0, 0, 0, .6);
+margin: auto;
+width: 1500px;
+margin-top: -25px;
+}
+
+header#cabecalho {
+border-bottom:1px #606060 solid;
+height: 150px;
+}
+
+header#cabecalho h1{
+font-family: 'FonteLogo', sans-serif;
+font-size: 30pt;
+color: #606060;
+text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+padding: 0px;
+margin-bottom: 0px;
+}
+
+header#cabecalho h2{
+font-family: 'FonteLogo2', sans-serif;
+font-size: 15pt;
+color: #888888;
+padding: 0px;
+margin-top: 0px;
 }
 
 h1{
@@ -17,15 +58,48 @@ p{
     color: #ffffff;
 }
 
-/*section {
-    background: rgba(0, 0, 0, .6);
-    margin: auto;
-    width: 1500px;
-    
-    
-}*/
-
 
 div {
     color: #ffffff;
+}
+
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -10px;
+    left: 1000px;			
+}
+
+nav#menu li{
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+    -webkit-transition: background-color 1s;
+}
+
+nav#menu li:hover{
+    background-color: #606060;
+    
+}
+
+nav#menu h1{
+    display: none;
+}
+
+nav#menu a {
+    color: #000000;
+    text-decoration: none;
+}
+
+nav#menu a:hover {
+    color: #ffffff;
+    text-decoration: underline;
 }
