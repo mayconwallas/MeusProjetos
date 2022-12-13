@@ -4,12 +4,14 @@ body {
 
 
 p {
-    text-align: justify;
+    text-align: center;
+
     text-indent: 50px;
+    padding: 10px;
 }
 
-a{
-    color: #606060;
+a {
+    color: #9ad5e7;
     text-decoration:none;				
 }
 
@@ -21,7 +23,7 @@ a:hover{
 div#interface {
 margin: -20px auto 0px auto;
 box-shadow: 0px 0px 10px rgba(0,0,0,.5);
-padding: 10px;
+padding: 50px;
 background: rgba(0, 0, 0, .6);
 margin: auto;
 width: 1500px;
@@ -102,4 +104,16 @@ nav#menu a {
 nav#menu a:hover {
     color: #ffffff;
     text-decoration: underline;
+}
+
+/* configurando o rodape*/
+
+footer#rodape {
+    clear:both;
+    border-top:1px solid #606060;
+}
+
+footer#rodape p {
+    text-align: center;
+    
 }
