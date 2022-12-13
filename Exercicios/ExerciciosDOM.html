@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div#area {
+            font: 20pt arial;
+            background: green;
+            color: aliceblue;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="area">
+        Interrasão DOM
+
+    </div>
+
+    <script>
+        area.addEventListener('click', clicar)
+        area.addEventListener('onmouseenter', entrar)
+        area.addEventListener('onmouseout', sair)
+        function clicar(){
+            var area = window.document.getElementById('area')
+            area.innerText = 'Ai pai para!'  
+            area.style.color = "black"
+            area.style.background = "yellow"
+        }
+        function entrar(){
+            var area = window.document.getElementById('area')
+            area.innerText = 'Não Clica!' 
+            area.style.background = "red"  
+        }
+        function sair(){
+            var area = window.document.getElementById('area')
+            area.innerText = 'Clica mais!'  
+            area.style.background = "green"
+            area.style.color = "white"  
+        }
+
+    </script>
+    
+</body>
+</html>
