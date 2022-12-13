@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios 01 DOM</title>
+
+    <style>
+        body{
+            background: rgba(68, 125, 199);
+            color: white;
+            font: 18pt arial;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Iniciando Estudo de DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
+    <div>
+        clique em mim
+    </div>
+    <script>
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[0]
+        p1.style.color = '#cecece'
+        corpo.style.background = 'Black'
+    </script>
+</body>
+</html>
