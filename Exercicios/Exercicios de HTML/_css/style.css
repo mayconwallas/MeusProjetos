@@ -4,7 +4,6 @@ body {
 
 p {
     text-align: center;
-
     text-indent: 50px;
     padding: 10px;
 }
@@ -21,32 +20,33 @@ a:hover{
 
 div#interface {
 margin: -20px auto 0px auto;
-box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+box-shadow: 0px 0px 10px rgba(51, 50, 50, 0.5);
 padding: 50px;
-background: rgba(0, 0, 0, .6);
+background: rgba(3, 76, 88, 0.6);
 margin: auto;
-width: 1500px;
+width: 80%;
 margin-top: -25px;
+
 }
 
 header#cabecalho {
-border-bottom:1px #606060 solid;
+border-bottom:1px #505050 solid;
 height: 150px;
 }
 
 header#cabecalho h1{
 font-family: 'FonteLogo', sans-serif;
 font-size: 30pt;
-color: #606060;
+color: #7cb6ec;
 text-shadow: 1px 1px 1px rgba(0,0,0,.6);
 padding: 0px;
 margin-bottom: 0px;
 }
 
 header#cabecalho h2{
-font-family: 'FonteLogo2', sans-serif;
+
 font-size: 15pt;
-color: #888888;
+color: #7cb6ec;
 padding: 0px;
 margin-top: 0px;
 }
@@ -66,20 +66,21 @@ div {
 
 
 nav#menu {
-    display: block;
+    position: relative;
+    left: 30%;
+    margin-top: -140px;
+    
 }
 
 nav#menu ul{
     list-style: none;
     text-transform: uppercase;
-    position: absolute;
-    top: -10px;
-    left: 1000px;			
+
 }
 
 nav#menu li{
     display: inline-block;
-    background-color: #dddddd;
+    background-color: #a5d7eb;
     padding: 10px;
     margin: 2px;
     transition: background-color 1s;
@@ -87,7 +88,7 @@ nav#menu li{
 }
 
 nav#menu li:hover{
-    background-color: #606060;
+    background-color: #55a5e7;
     
 }
 
@@ -104,6 +105,11 @@ nav#menu a:hover {
     color: #ffffff;
     text-decoration: underline;
 }
+
+img {
+    width: 35%;
+}
+
 
 /* configurando o rodape*/
 
