@@ -1,81 +1,22 @@
-body {
-    background: url('../_imagens/wallpapers-de-one-piece-para-pc-e-celular-30.jpg') center center no-repeat fixed;  
-}
-
-p {
+body{
     text-align: center;
     text-indent: 50px;
     padding: 10px;
+    color: rgb(255, 255, 255);
+	font-family: Arial, sans-serif;
+    background: url('../_imagens/wallpapers-de-one-piece-para-pc-e-celular-30.jpg') center center no-repeat fixed;
 }
-
-a {
-    color: #9ad5e7;
-    text-decoration:none;				
-}
-
-a:hover{
-    text-decoration: underline;
-    
-}
-
-div#interface {
-margin: -20px auto 0px auto;
-box-shadow: 0px 0px 10px rgba(51, 50, 50, 0.5);
-padding: 50px;
-background: rgba(3, 76, 88, 0.6);
-margin: auto;
-width: 80%;
-margin-top: -25px;
-
-}
-
-header#cabecalho {
-border-bottom:1px #505050 solid;
-height: 150px;
-}
-
-header#cabecalho h1{
-font-family: 'FonteLogo', sans-serif;
-font-size: 30pt;
-color: #7cb6ec;
-text-shadow: 1px 1px 1px rgba(0,0,0,.6);
-padding: 0px;
-margin-bottom: 0px;
-}
-
-header#cabecalho h2{
-
-font-size: 15pt;
-color: #7cb6ec;
-padding: 0px;
-margin-top: 0px;
-}
-
-h1{
-    color: #ffffff;
-}
-
-p{
-    color: #ffffff;
-}
-
-
-div {
-    color: #ffffff;
-}
-
 
 nav#menu {
-    position: relative;
-    left: 30%;
-    margin-top: -140px;
-    
+    display: block;
 }
 
 nav#menu ul{
     list-style: none;
     text-transform: uppercase;
-
+    position: absolute;
+    top: -20px;
+    left: 300px;			
 }
 
 nav#menu li{
@@ -106,19 +47,62 @@ nav#menu a:hover {
     text-decoration: underline;
 }
 
+
+div#interface {
+    margin: -20px auto -10px auto;
+    box-shadow: 0px 0px 10px rgba(51, 50, 50, 0.5);
+    padding: 50px;
+    background: rgba(3, 76, 88, 0.6);
+    width: 80%;
+    clear:both;
+    
+}
+
+header#cabecalho {
+    border-bottom:1px #6d6c6c solid;
+    height: 150px;
+    clear: both;
+    }
+
 img {
     width: 35%;
 }
 
-
-/* configurando o rodape*/
-
-footer#rodape {
-    clear:both;
-    border-top:1px solid #606060;
+header#cabecalho h1{
+    font-family: sans-serif;
+    font-size: 25pt;
+    color: #7cb6ec;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+    padding: 0px;
+    margin-bottom: 0px;
 }
 
-footer#rodape p {
-    text-align: center;
+ header#cabecalho h2{
+
+    font-size: 15pt;
+    color: #7cb6ec;
+    padding: 0px;
+    margin-top: 0px;
+}
+        
+
+p {
+    text-indent: 50px;
+    padding: 10px;
+    text-align: justify;
+}
+a {
+    color: #9ad5e7;
+    text-decoration:none;				
+}
+
+a:hover{
+    text-decoration: underline;
     
+}
+
+/* configurando o rodape*/
+footer#rodape {
+    clear:both;
+    border-top:1px solid #6d6c6c;
 }
