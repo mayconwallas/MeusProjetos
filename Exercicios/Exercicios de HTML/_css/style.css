@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,200;1,300&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
 body{
-    text-align: center;
-    text-indent: 50px;
-    padding: 10px;
     color: rgb(255, 255, 255);
-	font-family: Arial, sans-serif;
     background: url('../_imagens/wallpapers-de-one-piece-para-pc-e-celular-30.jpg') center center no-repeat fixed;
 }
 
@@ -16,7 +18,7 @@ nav#menu ul{
     text-transform: uppercase;
     position: absolute;
     top: -20px;
-    left: 300px;			
+    right: 8%;			
 }
 
 nav#menu li{
@@ -24,6 +26,7 @@ nav#menu li{
     background-color: #a5d7eb;
     padding: 10px;
     margin: 2px;
+    text-align: center;
     transition: background-color 1s;
     -webkit-transition: background-color 1s;
 }
@@ -53,13 +56,11 @@ div#interface {
     box-shadow: 0px 0px 10px rgba(51, 50, 50, 0.5);
     padding: 50px;
     background: rgba(3, 76, 88, 0.6);
-    width: 80%;
-    clear:both;
-    
+    width: 80%;    
 }
 
 header#cabecalho {
-    border-bottom:1px #6d6c6c solid;
+    border-bottom:1px #5e5c5c solid;
     height: 150px;
     clear: both;
     }
@@ -69,7 +70,6 @@ img {
 }
 
 header#cabecalho h1{
-    font-family: sans-serif;
     font-size: 25pt;
     color: #7cb6ec;
     text-shadow: 1px 1px 1px rgba(0,0,0,.6);
@@ -78,7 +78,6 @@ header#cabecalho h1{
 }
 
  header#cabecalho h2{
-
     font-size: 15pt;
     color: #7cb6ec;
     padding: 0px;
@@ -89,20 +88,21 @@ header#cabecalho h1{
 p {
     text-indent: 50px;
     padding: 10px;
-    text-align: justify;
 }
+
 a {
     color: #9ad5e7;
     text-decoration:none;				
 }
 
 a:hover{
-    text-decoration: underline;
-    
+    text-decoration: underline;   
 }
 
 /* configurando o rodape*/
+
 footer#rodape {
     clear:both;
     border-top:1px solid #6d6c6c;
+    text-align: center;
 }
