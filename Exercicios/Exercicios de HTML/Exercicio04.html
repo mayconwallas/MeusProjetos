@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detram</title>
+</head>
+<body>
+    <h1>Onde vc Mora?</h1>
+        Onde vc mora: <input type="text" name="txtvel" id="txtvel"><input type="button" value="Verificar" onclick="calcular ()">
+    <script>
+
+    function calcular() {
+        var txtv = window.document.querySelector('input#txtvel')
+        txtv.innerHTML = `<p>Você mora no <strong>${txtv}</strong></p>`
+        if (txtv != Brasil) {
+            txtv.innerHTML += `<p><strong>Você é Estrangeiro!</strong></p>`
+        }else{
+            txtv.innerHTML += `<p><strong>Você é Brasileiro!</strong></p>`
+        }
+        txtv.innerHTML =`<p>Feliz natal!!</p>`
+    }
+    </script>
+</body>
+</html>
