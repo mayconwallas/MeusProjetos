@@ -17,8 +17,9 @@ nav#menu ul{
     list-style: none;
     text-transform: uppercase;
     position: absolute;
-    top: -20px;
-    right: 8%;			
+    top: -15px;
+    right: 8%;	
+    		
 }
 
 nav#menu li{
@@ -26,6 +27,7 @@ nav#menu li{
     background-color: #a5d7eb;
     padding: 10px;
     margin: 2px;
+    margin-right: -5px;
     text-align: center;
     transition: background-color 1s;
     -webkit-transition: background-color 1s;
