@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,200;1,300&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    color: rgb(255, 255, 255);
+    background: url('../_imagens/wallpapers-de-one-piece-para-pc-e-celular-30.jpg') center center no-repeat fixed;
+    /*outra forma de colocar centralizado abaixo como comentario */ 
+    /*background: url('../_imagens/wallpapers-de-one-piece-para-pc-e-celular-30.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -15px;
+    right: 8%;	
+    		
+}
+
+nav#menu li{
+    display: inline-block;
+    background-color: #a5d7eb;
+    padding: 10px;
+    margin: 2px;
+    margin-right: -5px;
+    text-align: center;
+    transition: background-color 1s;
+    -webkit-transition: background-color 1s;
+}
+
+nav#menu li:hover{
+    background-color: #55a5e7;
+    
+}
+
+nav#menu h1{
+    display: none;
+}
+
+nav#menu a {
+    color: #000000;
+    text-decoration: none;
+}
+
+nav#menu a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+
+div#interface {
+    margin: -20px auto -10px auto;
+    box-shadow: 0px 0px 10px rgba(51, 50, 50, 0.5);
+    padding: 50px;
+    background: rgba(3, 76, 88, 0.6);
+    width: 80%;    
+}
+
+header#cabecalho {
+    border-bottom:1px #5e5c5c solid;
+    height: 150px;
+    clear: both;
+    }
+
+img {
+    width: 35%;
+}
+
+header#cabecalho h1{
+    font-size: 25pt;
+    color: #7cb6ec;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+ header#cabecalho h2{
+    font-size: 15pt;
+    color: #7cb6ec;
+    padding: 0px;
+    margin-top: 0px;
+}
+        
+
+p {
+    text-indent: 50px;
+    padding: 10px;
+}
+
+a {
+    color: #9ad5e7;
+    text-decoration:none;				
+}
+
+a:hover{
+    text-decoration: underline;   
+}
+
+/* configurando o rodape*/
+
+footer#rodape {
+    clear:both;
+    border-top:1px solid #6d6c6c;
+    text-align: center;
+}

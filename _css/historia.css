@@ -1,0 +1,138 @@
+.historiapricipal {
+background-image: url(../_imagens/bandiera.png);
+background-position: center top;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+color: rgb(255, 255, 255);
+padding-top: 300px;
+padding-bottom: 300px;
+}
+
+.luffy {
+    background-image: url(../_imagens/luffy.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(255, 255, 255);
+    padding-top: 300px;
+    padding-bottom: 300px;
+ }
+.zoro {
+    background-image: url(../_imagens/zoro.jpg);
+     background-position: center top;
+    background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     color: rgb(255, 255, 255);
+    padding-top: 300px;
+    padding-bottom: 300px;
+ }
+
+ .usopp {
+    background-image: url(../_imagens/usopp.jpg);
+     background-position: center top;
+    background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     color: rgb(255, 255, 255);
+    padding-top: 300px;
+    padding-bottom: 300px;
+ }
+
+ .sanji {
+    background-image: url(../_imagens/sanji.png);
+     background-position: center top;
+    background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     color: rgb(255, 255, 255);
+    padding-top: 300px;
+    padding-bottom: 300px;
+ }
+
+ .nami {
+    background-image: url(../_imagens/nami.png);
+     background-position: center top;
+    background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     color: rgb(255, 255, 255);
+    padding-top: 300px;
+    padding-bottom: 300px;
+ }
+
+ .Chopper {
+    background-image: url(../_imagens/chopp.jpg);
+     background-position: center top;
+    background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     color: rgb(255, 255, 255);
+    padding-top: 300px;
+    padding-bottom: 300px;
+ }
+
+ .robin {
+    background-image: url(../_imagens/robin.jpeg);
+     background-position: center top;
+    background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     color: rgb(255, 255, 255);
+    padding-top: 300px;
+    padding-bottom: 300px;
+ }
+
+ .frank {
+    background-image: url(../_imagens/frank.png);
+     background-position: center top;
+    background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     color: rgb(255, 255, 255);
+    padding-top: 300px;
+    padding-bottom: 300px;
+ }
+
+ .brook {
+    background-image: url(../_imagens/brook.jpg);
+     background-position: center top;
+    background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     color: rgb(255, 255, 255);
+    padding-top: 300px;
+    padding-bottom: 300px;
+ }
+
+ .jinbe {
+    background-image: url(../_imagens/Jimbei2.jpg);
+     background-position: center top;
+    background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     color: rgb(255, 255, 255);
+    padding-top: 300px;
+    padding-bottom: 300px;
+ }
+ .entrearco {
+    background-color: rgba(3, 76, 88, .7)
+     background-position: center top;
+    background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+ }
+
+ h1{
+    text-align: center;
+ }
+
+ p{
+    background-color: rgba(3, 76, 88, .7);
+
+ }
