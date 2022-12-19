@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset {
+    border: 0;
+    float:  left;
+    margin-right: 1em;
+}
+
+body, input, select, textarea, button {
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+div {
+    content: " ";
+    display: table;
+}
+
+div {
+    clear: both;
+}
+
+div#cadastro{
+    text-align: ;
+}
