@@ -5,7 +5,7 @@
         <script src=""></script>
         <link href="css/style.css" rel="stylesheet">
         <link href="css/form.css" rel="stylesheet">
-        <title>Formulario</title>
+        <title>Pesquisa</title>
     </head>       
     <body>
        <div id="interface">
@@ -18,16 +18,16 @@
 						<h1>Menu Principal</h1>
                         <ul>
 							<li><a href="index.html">Home</a></li>
-							<li><a href="formulario.html">formulário</a></li>
-							<li><a href="imagens.html">Fotos</a></li>
 							<li><a href="historia.html">Historia</a></li>
+							<li><a href="imagens.html">Fotos</a></li>
+							<li><a href="formulario.html">formulário</a></li>
 							<li><a href="contato.html">Fale conosco</a></li>
 						</ul>
 					</nav>
 				</header>
 				
 		    <section id="corpo">
-                <form action="">
+                <form action="/formulario-contato" method="post">
                     <fieldset>
                         <h1>Formulário de Pesquisa</h1>
                         
@@ -38,9 +38,7 @@
                             <label for="email">E-mail: </label>
                                 <input type="text" id="email"><br>
                             </label>
-                            <label for="">Telefone: </label>
-                                <input type="number" id="tel"><br>
-                            </label>
+
                             <label class="checkbox">
                                 <input type="radio" name="sexo" value="masculino" checked> Masculino
                             </label>
@@ -49,21 +47,22 @@
                             </label>
                         </div>
                         
-                        <p>com base nas informações adquiridas nos epsodios e nos textos aqui desse site, responta as perguntas abaixo.</p>
+                        
 
                         <div id="favorito">
-                            <label>Qual o integrante do bando que vc mais gosta.</label>
-                            <select>
-                                <option>Roronoa Zoro (Espadachim)</option>
-                                <option>Usopp (Atirador)</option>
-                                <option>Vinsmoke Sanji (Cozinheiro)</option>
-                                <option>Nami (Navegadora)</option>
-                                <option>Tony Tony Chopper (Médico)</option>
-                                <option>Nico Robin (Arqueóloga)</option>
-                                <option>Franky (Carpinteiro/Construtor)</option>
-                                <option>Brook (Músico)</option>
-                                <option>Jinbe (Timoneiro)</option>
-                            </select>
+
+                            <p>com base nas informações adquiridas nos epsodios e nos textos aqui desse site, responta as perguntas abaixo.</p>
+                            <label>Personagem favorito.</label><br>
+                            <input type="checkbox" name="" id="">Monkey D. Luffy(Capitão)
+                            <input type="checkbox" name="" id="">Roronoa Zoro (Espadachim)
+                            <input type="checkbox" name="" id="">Usopp (Atirador)
+                            <input type="checkbox" name="" id="">Vinsmoke Sanji (Cozinheiro)
+                            <input type="checkbox" name="" id="">Nami (Navegadora)
+                            <input type="checkbox" name="" id="">Tony Tony Chopper (Médico)
+                            <input type="checkbox" name="" id="">Nico Robin (Arqueóloga)
+                            <input type="checkbox" name="" id="">Franky (Carpinteiro/Construtor)
+                            <input type="checkbox" name="" id="">Brook (Músico)
+                            <input type="checkbox" name="" id="">Jinbe (Timoneiro)
                         </div>
                         <div class="pqfavorito">
                             <label for="mensagem">Mensagem</label>
