@@ -32,6 +32,7 @@ div#cadastro{
 
 fieldset {
     border: 0;   
+    width: 30%;
 }
 
 form {
@@ -54,10 +55,14 @@ form {
   
   input, textarea {
     font: 1em sans-serif;
-    width: 300px;
+    width: 100%;
     box-sizing: border-box;
     border: 1px solid #999;
+    height: 25px;    
+    padding-left: 1px;
+    box-sizing: border-box;
   }
+  
   
   input:focus, textarea:focus {
     border-color: #000;
