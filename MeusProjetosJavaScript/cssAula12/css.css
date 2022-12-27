@@ -1,6 +1,11 @@
 body{
     background-color: rgb(70, 142, 236);
     font: normal 15pt Arial;
+    background: url('') fixed no-repeat;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
 }
 
 header{
@@ -12,7 +17,7 @@ header{
 
 section{
     width: 700px;
-    height: 700px;
+    height: 450px;
     padding: 15px;
     background-color: white;
     margin: auto;
@@ -20,6 +25,15 @@ section{
     border-radius: 25px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
+div {
+    text-align: center;
+    padding: 8px;
+}
+
+img#imagem{
+    width: 650px;
+}
+
 footer{
     color: white;
     text-align: center;
